@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body>
+    <p>
+        ProductID|Name|MerchantID|Merchant|Link|Thumbnail|BigImage|Price|RetailPrice|Category|SubCategory|Description|Custom1|Custom2|Custom3|Custom4|Custom5|LastUpdated|status|manufacturer|partnumber|merchantCategory|merchantSubcategory|shortDescription|ISBN|UPC|SKU|CrossSell|MerchantGroup|MerchantSubgroup|CompatibleWith|CompareTo|QuantityDiscount|Bestseller|AddToCartURL|ReviewsRSSURL|Option1|Option2|Option3|Option4|Option5|mobileURL|mobileImage|mobileThumbnail|||||||
+    </p>
+    <p>Detailed Specification:</p>
+    <table cellpadding="5" cellspasing="0" border="1" class="sbar">
+        <tr>
+            <th>Column Order</th>
+            <th>Data</th>
+            <th>Data Type</th>
+            <th>Max Length</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ProductID</td>
+            <td>Integer</td>
+            <td>8 bytes</td>
+            <td>ShareASale generated ID for use in conjunction with our online tools. Should not be used as a primary key.
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Name</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Product Name</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>MerchantID</td>
+            <td>Integer</td>
+            <td>8 bytes</td>
+            <td>MerchantID number</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Merchant</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant Name</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Link</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL to the product's page</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Thumbnail</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL to the products thumbnail image</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>BigImage</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL to the product's large image</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Price</td>
+            <td>Numeric</td>
+            <td>2 decimal places</td>
+            <td>Product price</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>RetailPrice</td>
+            <td>Numeric</td>
+            <td>2 decimal places</td>
+            <td>Product full retail price (or MSRP)</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Category</td>
+            <td>Text</td>
+            <td>50 characters</td>
+            <td>ShareASale defined Category</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Subcategory</td>
+            <td>Text</td>
+            <td>50 characters</td>
+            <td>ShareASale defined Subcategory</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Description</td>
+            <td>Text</td>
+            <td>No character limit</td>
+            <td>Product Description (HTML allowed)</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Custom1</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant Defined Data</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Custom2</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant Defined Data</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Custom3</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant Defined Data</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Custom4</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant Defined Data</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Custom5</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant Defined Data</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Lastupdated</td>
+            <td>DateTime</td>
+            <td>N/A</td>
+            <td>Last updated date</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Status</td>
+            <td>Text</td>
+            <td>50 characters</td>
+            <td>Stock Status. instock refers to product in stock</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Manufacturer</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Product Manufacturer</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>PartNumber</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Manufacture's part number</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>MerchantCategory</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant defined category</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>MerchantSubcategory</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant defined subcategory</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>ShortDescription</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Short description (no HTML)</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>ISBN</td>
+            <td>Text</td>
+            <td>25 characters</td>
+            <td>Product ISBN number</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>UPC</td>
+            <td>Text</td>
+            <td>25 characters</td>
+            <td>Product UPC</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>SKU</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Merchant SKU for this product. This is a unique value, and can be used to generate a primary key.</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>CrossSell</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of SKU values that cross sell with the product.</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>MerchantGroup</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>3rd level category (sub subcategory) for the product</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>MerchantSubgroup</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>4th level cateogy (sub sub subcategory) for the product.</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>CompatibleWith</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of compatible items in format of Manufacturer~PartNumber.</td>
+        </tr>
+        <tr>
+            <td>32</td>
+            <td>CompareTo</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of items this product can replace in format of Manufacturer~PartNumber.</td>
+        </tr>
+        <tr>
+            <td>33</td>
+            <td>QuantityDiscount</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list in the format of minQuantity~maxQuantity~itemCost. Blank Max Quantity represents a top tier.</td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td>Bestseller</td>
+            <td>Bit</td>
+            <td>1</td>
+            <td>A 1 indicates a best selling product. Null values or zero are non-bestsellers.</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>AddToCartURL</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL that adds this product directly into the shopping cart.</td>
+        </tr>
+        <tr>
+            <td>36</td>
+            <td>ReviewsRSSURL</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL to RSS formatted reviews for this product.</td>
+        </tr>
+        <tr>
+            <td>37</td>
+            <td>Option1</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of product options in the format optionName~priceChangeInDollarsPerUnit.</td>
+        </tr>
+        <tr>
+            <td>38</td>
+            <td>Option2</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of product options in the format optionName~priceChangeInDollarsPerUnit.</td>
+        </tr>
+        <tr>
+            <td>39</td>
+            <td>Option3</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of product options in the format optionName~priceChangeInDollarsPerUnit.</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>Option4</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of product options in the format optionName~priceChangeInDollarsPerUnit.</td>
+        </tr>
+        <tr>
+            <td>41</td>
+            <td>Option5</td>
+            <td>Text</td>
+            <td>255 characters</td>
+            <td>Comma separated list of product options in the format optionName~priceChangeInDollarsPerUnit.</td>
+        </tr>
+        <tr>
+            <td>42</td>
+            <td>MobileURL</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL to the product's page, optimized for mobile.</td>
+        </tr>
+        <tr>
+            <td>43</td>
+            <td>MobileImage</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL to the product's large image, optimized for mobile.</td>
+        </tr>
+        <tr>
+            <td>44</td>
+            <td>MobileThumbnail</td>
+            <td>URL</td>
+            <td>255 characters</td>
+            <td>URL to the products thumbnail image, optimized for mobile.</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>ReservedForFutureUse</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Reserved for future use.</td>
+        </tr>
+        <tr>
+            <td>46</td>
+            <td>ReservedForFutureUse</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Reserved for future use.</td>
+        </tr>
+        <tr>
+            <td>47</td>
+            <td>ReservedForFutureUse</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Reserved for future use.</td>
+        </tr>
+        <tr>
+            <td>48</td>
+            <td>ReservedForFutureUse</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Reserved for future use.</td>
+        </tr>
+        <tr>
+            <td>49</td>
+            <td>ReservedForFutureUse</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Reserved for future use.</td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>ReservedForFutureUse</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Reserved for future use.</td>
+        </tr>
+        <tr>
+            <td>51</td>
+            <td>ReservedForFutureUse</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Reserved for future use.</td>
+        </tr>
+
+    </table>
+</body>
+</html>

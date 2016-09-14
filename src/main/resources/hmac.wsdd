@@ -1,0 +1,14 @@
+<deployment xmlns="http://xml.apache.org/axis/wsdd/"
+	xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+	<transport name="http"
+		pivot="java:org.apache.axis.transport.http.HTTPSender" />
+	<globalConfiguration>
+		<requestFlow>
+			<!-- SOAP HMAC-based authentication -->
+			<handler type="java:com.amazon.advertising.api.sample.HmacSecurityHandler">
+				<parameter name="awsAccessKeyId" value="AKIAJR4Y73IBRG2ETFKA" />
+				<parameter name="awsSecretyKey" value="0EN0ptKtg2F2pQuXPvm432m7sbF9M0VtG8x+vSa1" />
+			</handler>
+		</requestFlow>
+	</globalConfiguration>
+</deployment>

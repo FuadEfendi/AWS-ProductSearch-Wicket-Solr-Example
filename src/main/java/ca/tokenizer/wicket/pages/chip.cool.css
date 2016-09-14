@@ -1,0 +1,253 @@
+table {
+	background: #fff
+}
+
+form {
+	display: inline;
+}
+
+/* search help box */
+table.shelp {
+	margin: 0;
+	border-color: #5884C0;
+	border-style: solid;
+	border-width: 2px 2px 0;
+	width: 948px;
+}
+
+table.shelp thead td {
+	padding: 5px 5px 0px 15px;
+}
+
+table.shelp td {
+	background-color: #bdd3ff;
+	font-size: 13px;
+	padding: 5px 5px 10px;
+	vertical-align: text-top;
+}
+
+table.shelp td.first {
+	width: 170px;
+	padding-left: 15px;
+}
+
+table.shelp td.last {
+	width: 150px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+table.shelp td.nk {
+	text-align: right;
+}
+
+#ddBrandLimit {
+	width: 120px;
+	margin-top: .7em;
+}
+/* == end search help box ==*/
+table.items {
+	margin: 0;
+	border-color: #5884C0;
+	border-style: solid;
+	border-width: 0 2px;
+}
+
+table.items th {
+	color: #000000;
+	background-color: #bdd3ff;
+	font-size: 13px;
+	padding: 0 4px;
+}
+
+table.boxitem {
+	width: 100%;
+	border-color: #eee;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	/*margin: 10px 0;*/
+}
+
+.boxitem td {
+	vertical-align: top;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.boxitem td.space {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	height: 15px;
+}
+
+.itemDesc {
+	color: #679;
+}
+
+.feedbackitem {
+	margin: 10px 0;
+	border: 2px solid #33CC33;
+	background: #eeffee;
+}
+
+.bleft {
+	border-left: 1px solid #dddddd;
+}
+
+.bold {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.price {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+input.sml {
+	font-size: 10px
+}
+
+.lk, a.showimglink {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	color: rgb(0, 51, 204);
+	text-decoration: underline;
+}
+
+p.dent {
+	margin: 0px 80px 0 80px;
+	text-indent: -80px;
+}
+
+.lblue {
+	padding: 0 2px;
+	border: 1px solid #B1C7E2;
+	background-color: #E8EFFF;
+}
+
+a.xpromote {
+	visibility: hidden
+}
+
+.itemimage {
+	border: none;
+	max-width: 150px;
+	max-height: 100px;
+}
+
+
+///////////////////
+.small { font-size: 10pt; font-family: arial, helvetica; font-weight: bold;  color: black }
+table.items {
+	margin:0;
+	border-color: #5884C0;
+	border-style: solid;
+	border-width: 0 2px;
+	}
+table.items th {
+	color: #000000;
+	background-color:#bdd3ff;
+	font-size: 13px;
+	padding: 0 4px;
+}
+#search2 { font-family:arial; font-size:10pt }
+#search2 td {font-size:10pt}
+#search2 *.stdwidth { width: 300px }
+#search2 *.halfwidth { width: 140px }
+td.lbl { color: #47b; text-align:right; margin-right:3px; }
+
+
+.fullborder {
+	width:948px;
+	border:2px solid #5685c0;
+	font-family: arial,sans-serif;
+}
+.fullborder td { margin:0; padding:0 }
+
+#l1links {
+	font-size:8pt;
+	padding:0;
+	height:18px;
+}
+#l1links a 		{padding: 0 10px; color:#5685c0; text-decoration:none}
+#l1links a:visited 	{color: #5685c0}
+#l1links a:hover 	{color: #111;font-weight:normal;text-decoration:underline}
+
+
+
+
+/* - - start mega menu css - - */
+td.BlueBar {
+	background-color: #5884C0;
+	padding-bottom: 4px;
+	font:15px normal arial,tahoma,clean,sans-serif;
+}
+.firstbar {
+	border-bottom: 1px solid #99b;
+}
+td.BlueBar a {
+	background:url("/images/menu-arrow2.gif") no-repeat scroll 95% -4px transparent;
+	border-color:#5884C0 #9999BB #5884C0 #5884C0;
+	border-style:solid;
+	border-width:1px;
+	color:#FFFFFF;
+	font-family:Arial,helvetica;
+	font-size:9pt;
+	font-weight:bold;
+	padding:1px 26px 1px 12px;
+	text-decoration:none;
+}
+td.BlueBar a:hover {
+	color: #5884C0;
+	background-color: #FFF;
+	border-color:#FFF;
+}
+.hid { display:none; }
+a.mnuglow {
+	border:1px solid white;
+}
+div.menulinks{
+	font: 9pt Arial,Helvetica;
+	position:absolute;
+	background-color:#FFF;
+}
+div.menulinks a {
+	font: 9pt Arial;
+	padding:2px;
+	display:block;
+	color:#5884c0;
+	border:1px solid #FFF;
+}
+div.menulinks a:visited {
+	color: #508;
+}
+
+div.menulinks a:hover {
+	color:#000;
+	background:#E3F4FE;
+	text-decoration:none;
+	border-color: #DDD;
+}
+div.menulinks table {
+	border:2px solid #5884c0;
+	background-color:#FFF;
+}
+div.menulinks td {
+	vertical-align:top;
+}
+div#dd7 a {font-size:8pt; padding:0;}
+
+
+
+.itemimage {
+    border: medium none;
+    max-height: 100px;
+    max-width: 150px;
+}
+

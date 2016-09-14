@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<solr>
+    <cores
+        adminPath="/admin/cores"
+        host="${host:}"
+        hostPort="${jetty.port:8983}"
+        hostContext="${hostContext:solr}"
+    >
+        <core
+            name="13375-ecampus"
+            instanceDir="13375-ecampus" />
+        <core
+            name="21462-ezsystems"
+            instanceDir="21462-ezsystems" />
+        <core
+            name="7124-fanatics.com"
+            instanceDir="7124-fanatics.com" />
+        <shardHandlerFactory
+            name="shardHandlerFactory"
+            class="HttpShardHandlerFactory"
+        >
+            <int name="socketTimeout">${socketTimeout:0}</int>
+            <int name="connTimeout">${connTimeout:0}</int>
+        </shardHandlerFactory>
+    </cores>
+</solr>

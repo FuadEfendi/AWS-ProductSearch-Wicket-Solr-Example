@@ -1,0 +1,33 @@
+<deployment xmlns="http://xml.apache.org/axis/wsdd/"
+	xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+	<transport name="http"
+		pivot="java:org.apache.axis.transport.http.HTTPSender" />
+	<globalConfiguration>
+		<requestFlow>
+			<!-- Signed requests must have WS-Addressing headers, otherwise Amazon will reject the request -->
+			<handler type="java:org.apache.axis.message.addressing.handler.AddressingHandler" />
+
+			<!-- Use the WSS4J's WSDoAllSender handler and ask it to do Timestamp and Signature actions -->
+			<handler type="java:org.apache.ws.axis.security.WSDoAllSender">
+				<parameter name="action" value="Timestamp Signature" />
+				
+				<!-- Help it locate the X509 certificate -->
+				<parameter name="signaturePropFile" value="amazon_certificate.properties" />
+				
+				<!-- Amazon requires the X509 cert to be specifies as BinarySecurityToken direct reference -->
+				<parameter name="signatureKeyIdentifier" value="DirectReference" />
+				
+				<!-- The alias for the certificate, specified while creating the .p12 file -->
+				<parameter name="user" value="my_amazon_cert" />
+				
+				<!-- The password for the certificate is provided by this callback. Don't forget to edit it and
+					 set your password -->
+				<parameter name="passwordCallbackClass" value="com.amazon.advertising.api.sample.PasswordCallback" />
+			</handler>
+		</requestFlow>
+
+		<!-- The AddressingHandler above will not send the ReplyTo header unless explicitly configured.
+			 Without this, Amazon will reject the request -->
+		<parameter name="addressing.sendReplyTo" value="true" />
+	</globalConfiguration>
+</deployment>

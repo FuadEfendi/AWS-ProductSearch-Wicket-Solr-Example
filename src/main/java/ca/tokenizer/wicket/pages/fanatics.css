@@ -1,0 +1,223 @@
+
+div#headerFrameTopContainer {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/header/wide_header_background_fanatics.jpg");
+}
+div#headerNavContainer ul li {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/header/FF_header_menu_2.gif");
+}
+div#coHeaderTopHalfContainer {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/checkoutHeader_fanatics.jpg");
+}
+div#cartRecommendationsControlContainer, div#pdpContentContainer div.baynotePDPEnabled div#mwsPdpContainer, div#pdpContentContainer div#pdpBaynoteTargetContainer {
+    display: none;
+}
+div#pdpContentContainer div.baynotePDPEnabled, div#cartBottom div.baynoteCartEnabled, div#pdpBaynoteControlContainer, div#pdpContentContainer div#mwsPdpContainer, div#pdpContentContainer div.baynotePDPEnabled div#pdpBaynoteTargetContainer {
+    display: block;
+}
+.ProductDetail div#landingPageContentOutsideContainer div#SidebarOutsideContainer {
+    display: none;
+}
+.ProductDetail div#landingPageContentOutsideContainer div#landingPageContentContainer {
+    float: none;
+    width: auto;
+}
+.ProductDetail div#landingPageContentContainer div#pdpContentContainer {
+    margin-left: 0;
+}
+.ProductDetail div#pdpContentContainer div#pdpProductContainer {
+    float: left;
+    width: 776px;
+}
+.ProductDetail div.suggestionOutsideContainer {
+    margin-left: 0;
+}
+.ProductDetail div#pdpLowerContentContainer {
+    clear: both;
+}
+div#cartBottom div#cartBottomCenter {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 752px;
+}
+div#cartBottomCenter div.shippingRate {
+    margin: 0;
+    padding-top: 5px;
+}
+div#pdpContentContainer div#pdpBaynoteControlContainer {
+    float: right;
+    margin-bottom: 15px;
+    width: 186px;
+}
+div#cartBottom div.baynoteCartEnabled {
+    clear: both;
+    margin-bottom: 15px;
+}
+div#cartBottom div.baynoteCartEnabled a {
+    text-align: center;
+    text-indent: 0;
+}
+div.lowerBodyWrapper h1 {
+    color: #006;
+    font-size: 14px;
+    font-weight: bold;
+}
+div.lowerBodyWrapper p {
+    color: #006;
+    font-size: 14px;
+}
+a.PickYourTeamMain1 {
+    color: #006;
+}
+div#SidebarOutsideContainer div.search {
+    display: none;
+}
+div#cartHeader div#cartHeaderRight a.cartHeaderCheckoutNow {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/cart_checkout_small.jpg");
+}
+div#cartBottomRight a.cartBottomCheckoutNow {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/secure_checkout_now.jpg");
+}
+div.cartCouponBGContainer div.cartCouponApplyButtonContainer input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/cart_apply_button.gif");
+}
+div.qtyAddToCartContainer div.addToCartContainer input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/pdp/add_to_cart.jpg");
+}
+div.checkoutMainContainer div.gcContainer div.returningCustomers div.signInRow input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/FF_Checkout_Button_Signin.gif");
+}
+div.checkoutMainContainer div.gcContainer div.newCustomers div.buttonRow a#registerAndCheckoutButton, div.checkoutMainContainer div.gcContainer div.registerCustomers div.signInRow input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/FF_Checkout_Button_Register.gif");
+}
+div.checkoutMainContainer div.checkoutStep2Continue input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/ff_b_continuecheckout_big.gif");
+}
+div.submitPaymentContainer div.CompleteOrder input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/ff_b_complete_order.gif");
+}
+div.myAccountContentContainer div.signIn div.signInRow input.submit {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/my_account/FF_MyAccount_Button_Signin.gif");
+}
+div.myAccountContentContainer div.myAccountContainer div.trackSubmitRow input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/my_account/FF_MyAccount_Button_TrackOrder.gif");
+}
+div.createAccount div.createAccountRow input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/my_account/MyAccount_Button_CreateAccount.gif");
+}
+div.myAccountContentContainer div.notice div.continueCheckoutRow a, div#createAccountWrapper div.createAccountContent div.createAccountRow input.createContinueButton {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/checkout/FF_Checkout_Button_ContinueCheckout_orange.gif");
+}
+div.newEmailSignupPaddingContainer div.newEmailSignupSubmitContainer input {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/footer/email_signup_button.jpg");
+}
+div.ProductDetail div#SidebarOutsideContainer {
+    display: none;
+}
+div.ProductDetail div#landingPageContentContainer {
+    float: none;
+    width: auto;
+}
+div.ProductDetail div#pdpProductContainer {
+    float: left;
+    width: 776px;
+}
+div.ProductDetail div#pdpBaynoteControlContainer {
+    display: block;
+    float: right;
+    width: 182px;
+}
+div.ProductDetail div#pdpContentContainer {
+    padding-bottom: 10px;
+    padding-right: 8px;
+}
+div.ProductDetail div#pdpLeftOutsideContainer {
+    margin-right: 12px;
+}
+div.ProductDetail div#pdpLowerContentContainer {
+    margin-top: 10px;
+}
+div.ProductDetail div.suggestionOutsideContainer {
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+div#SidebarOutsideContainer div.search {
+    display: none;
+}
+div .enableQuickLookHover a.qlStaticButton {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/quickview_button3_small_blue3.png");
+}
+div.IE6 div .enableQuickLookHover a.qlStaticButton, div.IE7 div .enableQuickLookHover a.qlStaticButton {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/quickview_button3_small_blue3.gif");
+}
+div div.qlHeaderContainer {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/quickview_gradient_bg_FF.jpg");
+}
+div div.qlHeaderLeftContainer {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/quickview_icon_FF.gif");
+    color: #fff;
+}
+div div.qlHeaderRightContainer {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/minibag_close_button_FF.gif");
+}
+div.qlHeaderRightContainer a {
+    color: #fff;
+}
+div div.qlAddToCartContainer input.qlAddToCart {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/quickview_add_to_cart_Button_FF.jpg");
+}
+div div.qlCustomProductContainer a.qlCustomProductButtom {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/CustomizeIt_bn_big.jpg");
+}
+div a.mbCartLink {
+    color: #fff;
+}
+div div.mbHeaderContainer {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/quickview_gradient_bg_FF.jpg");
+    color: #fff;
+}
+div div.mbHeaderRightContainer {
+    background-image: none;
+    color: #fff;
+}
+div div.mbTopButtonsRightContainer a.mbCheckout {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/minibag_checkout_yellow.jpg");
+}
+div div.mbBottomButtonsContainer a.mbCheckout {
+    background-image: url("//images.footballfanatics.com/TCS/quicklook/minibag_checkout_yellow.jpg");
+}
+div div.mbMinibagItemContainer div.mbMinibagItemProductName {
+    color: #1a65a6;
+}
+div#waitingInnerContainer div.processingLogoContainer, div#waitingPreloadTarget {
+    background-image: url("//images.footballfanatics.com/TCS/checkout/payment_processing/Fanatics.png");
+}
+div#cartPageTotals div#cartPageTotalsLeft div.cartCouponOutsideContainer {
+    display: block;
+}
+li#navWORLDCUP, li#navWORLDCUPclickable {
+    background-position: -582px -34px;
+}
+div.prStars {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/pwr/stars_2A4A84.gif");
+}
+div.pdpReviewContentContainer .pr-snapshot-rating .pr-stars, .pr-review-faceoff .pr-stars, .pr-modal-container .pr-stars, .pr-modal-container .pr-review-faceoff-review-content .pr-stars {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/pwr/stars_2A4A84.gif");
+}
+div.pdpReviewContentContainer .pr-stars-small {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/pwr/stars_sm_2A4A84.gif");
+}
+div.ItemContainer div.Item div.prStarsOnlyContainer div.prStars {
+    background-image: url("//images.footballfanatics.com/partners/ff_wide/pwr/stars_sm_2A4A84.gif");
+}
+div#headerNavContainer div#collegeViewAll a {
+    background-color: #364e7a;
+    color: #fff;
+    text-decoration: none;
+}
+div#headerNavContainer div#collegeViewAll a:hover {
+    text-decoration: underline;
+}
+div.qlMainContainer div.qlHeaderRightContainer a, div.qlMainContainer div.qlHeaderRightContainer a:hover, div.mbInsideContainer div.mbHeaderRightContainer a.mbCloseLink, div.mbInsideContainer div.mbHeaderRightContainer a.mbCloseLink:hover {
+    color: #fff;
+}

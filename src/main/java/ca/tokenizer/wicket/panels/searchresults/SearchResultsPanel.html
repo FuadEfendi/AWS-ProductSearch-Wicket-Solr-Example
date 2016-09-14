@@ -1,0 +1,61 @@
+<wicket:panel xmlns:wicket="http://wicket.apache.org">
+    <div class="dlpPagination topPager">
+        <div class="left">
+            <div class="itemsShown"></div>
+            <div class="perPageSelector"></div>
+            <div class="sortItemsBy"></div>
+        </div>
+        <div class="right">
+            <div
+                class="paginationText"
+                wicket:id="navigator"></div>
+        </div>
+    </div>
+    <div class="clear_div"></div>
+    <div wicket:id="list_of_products">
+        <table
+            class=boxitem
+            cellspacing=0>
+            <tr>
+                <td
+                    class="space"
+                    colspan=5><img
+                    height="8"
+                    wicket:id="spacer1"/></td>
+            </tr>
+            <tr>
+                <td
+                    width=24%
+                    align="center"><span
+                    class="price"
+                    wicket:id="price">[price]</span></td>
+                <td></td>
+                <td width=445><b><wicket:container wicket:id="productName0">[productName0]</wicket:container>&nbsp;<wicket:container
+                            wicket:id="manufacturer">[manufacturer]</wicket:container></b><br />
+                <span class="itemDesc"><wicket:container wicket:id="description">[description]</wicket:container><br />
+                    <a wicket:id="linkToProduct0">More Product Info on&nbsp;<wicket:container wicket:id="productName1">[productName1]</wicket:container></a></span>
+                    <div style="color: #888">
+                        <wicket:container wicket:id="customCategory">[customCategory]</wicket:container>
+                        <br />UPC:&nbsp;
+                        <wicket:container wicket:id="sku">[SKU]</wicket:container>
+                    </div></td>
+                <td></td>
+                <td
+                    width=24%
+                    align="center"><a
+                    wicket:id="linkToProduct1"
+                    rel="nofollow"><img
+                        class="itemimage"
+                        wicket:id="linkToImage"
+                        rel="nofollow" /></a></td>
+            </tr>
+            <tr>
+                <td
+                    class="space"
+                    colspan=5><img
+                    height="8"
+                    wicket:id="spacer2"/></td>
+            </tr>
+        </table>
+    </div>
+</wicket:panel>

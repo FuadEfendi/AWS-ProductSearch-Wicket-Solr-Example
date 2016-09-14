@@ -1,0 +1,70 @@
+<wicket:panel xmlns:wicket="http://wicket.apache.org">
+    <div class="dlpPagination topPager">
+        <div class="left">
+            <div class="itemsShown"></div>
+            <div class="perPageSelector"></div>
+            <div class="sortItemsBy"></div>
+        </div>
+        <div class="right">
+            <div
+                class="paginationText"
+                wicket:id="navigator"></div>
+        </div>
+    </div>
+    <div wicket:id="list_of_products">
+        <div
+            class="ItemContainer2"
+            itemprop="itemListElement"
+            itemscope
+            itemtype="http://schema.org/Product">
+            <meta wicket:id="brand" />
+            <meta wicket:id="description"/ >
+            <div class="ImageLink">
+                <a
+                    wicket:id="linkToProduct"
+                    rel="nofollow"><img wicket:id="linkToImage" /></a>
+            </div>
+            <div class="BottomLink">
+                <a
+                    wicket:id="linkToProduct2"
+                    rel="nofollow">[link to product]</a>
+            </div>
+            <div
+                class="PriceContainer2"
+                wicket:id="placeholderForFragmentedListItem">[dynamic fragment]</div>
+            <wicket:fragment wicket:id="fragmentRegular">
+                <div class="Regular">
+                    <p class="RegularPrice2">
+                        <span class="RegularLabel2">Regular:&nbsp;</span><span
+                            class="RegularPrice2"
+                            wicket:id="regularPrice">[regular price]</span>
+                    </p>
+                    <p class="salePrice">
+                        <span class="saleLabel">Sale:&nbsp;</span><span
+                            class="salePrice"
+                            wicket:id="salePrice">[sale price]</span>
+                    </p>
+                </div>
+            </wicket:fragment>
+            <wicket:fragment wicket:id="fragmentSale">
+                <div class="Sale">
+                    <p class="RegularPrice2">
+                        <span class="RegularLabel2">Regular:&nbsp;</span><span
+                            class="RegularPrice2"
+                            wicket:id="regularPrice">[regular price]</span>
+                    </p>
+                    <p class="salePrice">
+                        <span class="saleLabel">Sale:&nbsp;</span><span
+                            class="salePrice"
+                            wicket:id="salePrice">[sale price]</span>
+                    </p>
+                </div>
+            </wicket:fragment>
+
+            <div wicket:id="brandLabel"></div>
+            <div wicket:id="descriptionLabel"></div>
+
+        </div>
+        <div wicket:id="clear_div"></div>
+    </div>
+</wicket:panel>

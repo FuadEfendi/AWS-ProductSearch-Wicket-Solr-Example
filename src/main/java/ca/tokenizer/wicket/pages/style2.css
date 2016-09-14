@@ -1,0 +1,229 @@
+div.BottomLink {
+	margin: 10px 0 3px;
+}
+
+div.BottomLink a {
+	font-size: 12px;
+}
+
+div.BottomLink h3 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+}
+
+div.ItemContainer2 {
+	float: left;
+	margin: 0 0 14px 14px;
+	overflow: hidden;
+	text-align: center;
+	width: 180px;
+}
+
+div.ItemContainer2 div.ImageLink a img {
+	width: 180px;
+}
+
+div.ItemContainer2 div.Regular p, div.ItemContainer2 div.Sale p, div.ItemContainer2 div.Clearance p
+	{
+	margin: 0;
+}
+
+div.ItemContainer2 div.regular, div.ItemContainer2 div.regular span.RegularLabel2,
+	div.ItemContainer2 div.Regular span.RegularLabel2 {
+	display: none;
+}
+
+div.ItemContainer2 div.regular span.RegularPrice2, div.ItemContainer2 div.Regular span.RegularPrice2
+	{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.ItemContainer2 div.regular p.salePrice, div.ItemContainer2 div.Regular p.salePrice
+	{
+	display: none;
+}
+
+div.ItemContainer2 div.regular p.clearancePrice, div.ItemContainer2 div.Regular p.clearancePrice
+	{
+	display: none;
+}
+
+div.ItemContainer2 div.regular h2.salePrice, div.ItemContainer2 div.Regular h2.salePrice
+	{
+	display: none;
+}
+
+div.ItemContainer2 div.regular h2.clearancePrice, div.ItemContainer2 div.Regular h2.clearancePrice
+	{
+	display: none;
+}
+
+div.ItemContainer2 div.sale span.RegularLabel2, div.ItemContainer2 div.Sale span.RegularLabel2
+	{
+	display: inline;
+}
+
+div.ItemContainer2 div.sale p.RegularPrice2, div.ItemContainer2 div.sale h2.RegularPrice2,
+	div.ItemContainer2 div.Sale p.RegularPrice2, div.ItemContainer2 div.Sale h2.RegularPrice2
+	{
+	color: #000;
+	font-size: 11px;
+}
+
+div.ItemContainer2 div.sale p.salePrice, div.ItemContainer2 div.sale h2.salePrice,
+	div.ItemContainer2 div.Sale p.salePrice, div.ItemContainer2 div.Sale h2.salePrice
+	{
+	color: #d00;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.ItemContainer2 div.sale p.clearancePrice, div.ItemContainer2 div.sale h2.clearancePrice,
+	div.ItemContainer2 div.Sale p.clearancePrice, div.ItemContainer2 div.Sale h2.clearancePrice
+	{
+	display: none;
+}
+
+div.ItemContainer2 div.clearance span.RegularLabel2, div.ItemContainer2 div.Clearance span.RegularLabel2
+	{
+	display: inline;
+}
+
+div.ItemContainer2 div.clearance p.RegularPrice2, div.ItemContainer2 div.clearance h2.RegularPrice2,
+	div.ItemContainer2 div.Clearance p.RegularPrice2, div.ItemContainer2 div.Clearance h2.RegularPrice2
+	{
+	color: #555;
+	display: block;
+	font-size: 11px;
+}
+
+div.ItemContainer2 div.clearance p.salePrice, div.ItemContainer2 div.clearance h2.salePrice,
+	div.ItemContainer2 div.Clearance p.salePrice, div.ItemContainer2 div.Clearance h2.salePrice
+	{
+	color: #000;
+	display: block;
+	font-size: 11px;
+}
+
+div.ItemContainer2 div.clearance p.clearancePrice, div.ItemContainer2 div.clearance h2.clearancePrice,
+	div.ItemContainer2 div.Clearance p.clearancePrice, div.ItemContainer2 div.Clearance h2.clearancePrice
+	{
+	color: #d00;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer {
+	height: 16px;
+	width: 86px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars {
+	background-image:
+		url("stars_sm_2A4A84.gif");
+	height: 16px;
+	width: 86px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-0_0
+	{
+	background-position: 0 2px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-0_5
+	{
+	background-position: 0 -20px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-1_0
+	{
+	background-position: 0 -37px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-1_5
+	{
+	background-position: 0 -55px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-2_0
+	{
+	background-position: 0 -72px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-2_5
+	{
+	background-position: 0 -90px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-3_0
+	{
+	background-position: 0 -108px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-3_5
+	{
+	background-position: 0 -125px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-4_0
+	{
+	background-position: 0 -143px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-4_5
+	{
+	background-position: 0 -161px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars.rating-5_0
+	{
+	background-position: 0 -179px;
+}
+
+div.ItemContainer2 div.Item div.prStarsOnlyContainer div.prStars {
+	background-image:
+		url("stars_sm_F7941D.gif");
+}
+
+div.ItemContainer2 div.catalogProductGridDiv {
+	text-align: center;
+	width: auto;
+}
+
+div.PriceContainer2 div.Sale h2.RegularPrice2 span.RegularPrice2, div.PriceContainer2 div.Clearance h2.RegularPrice2 span.RegularPrice2,
+	div.PriceContainer2 div.Clearance h2.salePrice span.salePrice {
+	text-decoration: line-through;
+}
+
+div.PriceContainer2 h2 {
+	margin: 0 0 3px;
+}
+
+div.PriceContainer2 div.Sale p.RegularPrice2 span.RegularPrice2, div.PriceContainer2 div.Clearance p.RegularPrice2 span.RegularPrice2,
+	div.PriceContainer2 div.Clearance p.salePrice span.salePrice {
+	color: #777;
+	text-decoration: line-through;
+}
+
+div.PriceContainer2 div.Sale p.RegularPrice2, div.PriceContainer2 div.Clearance p.RegularPrice2,
+	div.PriceContainer2 div.Clearance p.salePrice {
+	color: #777;
+}
+
+div.PriceContainer2 div.Clearance p.RegularPrice2 {
+	float: left;
+	margin-left: 8px;
+}
+
+div.PriceContainer2 div.Clearance p.salePrice {
+	float: right;
+	margin-right: 8px;
+}
+
+div.PriceContainer2 div.Clearance p.clearancePrice {
+	clear: both;
+}

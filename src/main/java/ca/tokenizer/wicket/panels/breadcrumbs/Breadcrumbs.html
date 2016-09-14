@@ -1,0 +1,34 @@
+<wicket:panel xmlns:wicket="http://wicket.apache.org">
+    <h1>
+        <div class="browseHeaderBreadCrumbs browseHeaderBreadCrumbs">
+            <wicket:container wicket:id="placeholder"></wicket:container>
+            <span
+                class="breadcrumbProductCount"
+                wicket:id="productCount"></span>
+        </div>
+    </h1>
+    <wicket:fragment wicket:id="fragment0">
+        <a href="/">Home<span class="breadcrumbSeparator">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span></a>
+    </wicket:fragment>
+    <wicket:fragment wicket:id="fragment1">
+        <a href="/">Home</a>
+        <span class="breadcrumbSeparator">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+        <a wicket:id="categoryLink"><wicket:container wicket:id="categoryLabel">[category]</wicket:container></a>
+    </wicket:fragment>
+    <wicket:fragment wicket:id="fragment2">
+        <a href="/">Home</a>
+        <span class="breadcrumbSeparator">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+        <a wicket:id="categoryLink"><wicket:container wicket:id="categoryLabel">[category]</wicket:container></a>
+        <span class="breadcrumbSeparator">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+        <a wicket:id="subcategoryLink"><wicket:container wicket:id="subcategoryLabel">[subcategory]</wicket:container></a>
+    </wicket:fragment>
+    <wicket:fragment wicket:id="fragment3">
+        <a href="/">Home</a>
+        <span class="breadcrumbSeparator">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+        <a wicket:id="categoryLink"><wicket:container wicket:id="categoryLabel">[category]</wicket:container></a>
+        <span class="breadcrumbSeparator">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+        <a wicket:id="subcategoryLink"><wicket:container wicket:id="subcategoryLabel">[category]</wicket:container></a>
+        <span class="breadcrumbSeparator">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>
+        <a wicket:id="custom3Link"><wicket:container wicket:id="custom3Label">[custom3]</wicket:container></a>
+    </wicket:fragment>
+</wicket:panel>

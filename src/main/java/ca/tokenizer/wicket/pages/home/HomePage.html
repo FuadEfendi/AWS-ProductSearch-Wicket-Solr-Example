@@ -1,0 +1,74 @@
+<wicket:extend xmlns:wicket="http://wicket.apache.org">
+    <div id="headerFrameContainer">
+        <div id="headerFrameTop"></div>
+        <div class="clear_div"></div>
+        <div id="headerFrameTopContainer"></div>
+        <div class="clear_div"></div>
+        <div id="headerNavContainer">
+            <wicket:container wicket:id="navigation_header">[navigation_header]</wicket:container>
+        </div>
+        <div class="clear_div"></div>
+        <div id="headerBelowNavContainer"></div>
+        <div class="clear_div"></div>
+    </div>
+    <div class="clear_div"></div>
+    <div id="ContentPaddingContainer">
+        <div id="landingPageWrapper">
+            <div
+                itemtype="http://schema.org/AggregateOffer"
+                itemscope=""
+                itemprop="offers"
+                class="clearfix"
+                id="browseHeaderContainer">
+                <div class="browseHeaderContainer clearfix ">
+                    <div class="browseHeaderBreadCrumbsContainer clearfix">
+                        <div wicket:id="breadcrumbs"></div>
+                    </div>
+                </div>
+                <div
+                    class="ui-widget ui-alert hidden"
+                    id="ui-alert-message"
+                    aria-live="assertive"
+                    aria-relevant="all"
+                    aria-atomic="true"
+                    role="alert">
+                    <div class="ui-corner-all ui-state-highlight">
+                        <div class="ui-alerticon"></div>
+                        <div class="ui-alert-header"></div>
+                        <div class="ui-alert-body"></div>
+                    </div>
+                </div>
+            </div>
+            <div
+                id="landingPageContentOutsideContainer"
+                class="enableQuickLookHover">
+                <div id="BrowseFullWidthHeader"></div>
+                <div id="SidebarOutsideContainer">
+                    <div wicket:id="left_side_panel">[Left SIde Panel]</div>
+                </div>
+                <div id="landingPageContentContainer">
+                    <form wicket:id="form">
+                        <input
+                            type="text"
+                            wicket:id="query"
+                            value=""
+                            size="50" /><input
+                            type="submit"
+                            value="Search" />
+                     </form>
+                        <h2 wicket:id="query2">Message goes here</h2>
+                    
+                    <div wicket:id="landingPageContentContainer">[landingPageContentContainer]</div>
+                </div>
+                <div class="rightColumnWrapper"></div>
+                <div class="clear_div"></div>
+            </div>
+        </div>
+        <div id="footerFrameContainer">
+            <p style="text-align: center; padding-top: 12px;">
+                Powered By <a href="http://www.tokenizer.ca">Tokenizer Inc. - Lucene, Solr, Hadoop Experts</a> <br /> &copy; 2014 Tokenizer Inc. All Rights
+                Reserved
+            </p>
+        </div>
+    </div>
+</wicket:extend>
